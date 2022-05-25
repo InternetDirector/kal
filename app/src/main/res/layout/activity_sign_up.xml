@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/app_background">
+
+        <ImageView
+            android:layout_width="231dp"
+            android:layout_height="122dp"
+            android:background="@drawable/logo"
+            android:layout_marginTop="37dp"/>
+        <ImageView
+            android:layout_width="207dp"
+            android:layout_height="23dp"
+            android:background="@drawable/text_logo"
+            android:layout_marginTop="28dp"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="44dp"
+            android:hint="Имя"
+            android:textColorHint="@color/app_hint"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="16dp"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="44dp"
+            android:hint="Фамилия"
+            android:textColorHint="@color/app_hint"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="16dp"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="44dp"
+            android:hint="E-mail"
+            android:textColorHint="@color/app_hint"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="16dp"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="44dp"
+            android:hint="Пароль"
+            android:textColorHint="@color/app_hint"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="16dp"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="44dp"
+            android:hint="Повторите пароль"
+            android:textColorHint="@color/app_hint"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="16dp"/>
+
+        <Button
+            android:id="@+id/ToReg"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:textColor="@color/white"
+            android:text="Зарегистрироваться"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:paddingVertical="13dp"
+            android:theme="@style/button1"/>
+
+        <Button
+            android:id="@+id/HaveAccaunt"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:textColor="@color/app_pink"
+            android:text="У меня уже есть аккаунт"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:paddingVertical="13dp"
+            android:theme="@style/button2"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/movie"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/movie_effect"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="18dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="17dp">
+                    <Button
+                        android:id="@+id/back"
+                        android:layout_width="16.03dp"
+                        android:layout_height="16.03dp"
+                        android:background="@drawable/arrow_back"
+                        android:theme="@style/arrow"
+                        android:layout_marginRight="35.98dp"/>
+
+                    <TextView
+                        android:layout_width="204dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="The Magicians"
+                        android:textSize="20sp"
+                        android:textFontWeight="500"
+                        android:layout_marginRight="4dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/app_pink"
+                        android:text="18+"
+                        android:textSize="14sp"
+                        android:textFontWeight="700"
+                        android:layout_marginRight="17.98dp"/>
+                    <ImageView
+                        android:layout_width="20.01dp"
+                        android:layout_height="20.01dp"
+                        android:background="@drawable/obs"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Magicians"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textFontWeight="400"
+                    android:layout_marginTop="359dp"
+                    android:layout_marginLeft="15dp"/>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Описание"
+                    android:textSize="24sp"
+                    android:textFontWeight="700" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Eliot is in his happy place, unaware that he is being possessed by the Monster. To have control over his body, Eliot must travel to the place that contains his greatest regret: turning down Quentin when he suggests he and Eliot should be together after their memories are restored of their life in past-Fillory, happily living together and raising a family."
+                    android:textSize="14sp"
+                    android:textFontWeight="400"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Кадры"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textFontWeight="700"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginHorizontal="16dp">
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="72dp"
+                        android:background="@drawable/img9"
+                        android:layout_marginRight="16dp"/>
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="72dp"
+                        android:background="@drawable/img10"
+                        android:layout_marginRight="16dp"/>
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="72dp"
+                        android:background="@drawable/img11"
+                        android:layout_marginRight="16dp"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
